@@ -9,7 +9,7 @@ collection = db["sensors"]
 
 # MQTT configuration
 mqtt_broker_address = '34.27.59.217'      # Change to your VM external IP address
-mqtt_topic = 'sensors'                        # Change to your MQTT topic (same to the Arduino MQTT topic)
+mqtt_topic = 'sensors'                    # Change to your MQTT topic (same to the Arduino MQTT topic)
 
 def on_message(client, userdata, message):
   payload = message.payload.decode('utf-8')
