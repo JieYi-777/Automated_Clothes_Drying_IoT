@@ -7,9 +7,9 @@
 // Replace these values with your own
 const char *WIFI_SSID = "your_wifi_name";          // Change to your WiFi SSID
 const char *WIFI_PASSWORD = "your_wifi_password";  // Change to your password
-const char *MQTT_SERVER = "34.121.176.166";        // Change to your VM instance public (external) IP address
+const char *MQTT_SERVER = "your_VM_external_IP_address";        // Change to your VM instance public (external) IP address
 const int MQTT_PORT = 1883;                        // It needs to be same with MQTT port number allowed by your firewall configuration
-const char *MQTT_TOPIC = "iot";                    // Change to your MQTT topic
+const char *MQTT_TOPIC = "sensors";                // Change to your MQTT topic
 
 const int DHT_PIN = A4;          // Change to your humidity sensor's input pin
 const int rainPin = 42;          // Change to your rain sensor's input pin
